@@ -31,5 +31,7 @@ namespace CraigsListJnr.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CraigsListJnr.Models.Post> Posts { get; set; }
     }
 }
